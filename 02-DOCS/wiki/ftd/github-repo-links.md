@@ -19,7 +19,7 @@ In:
 - `store/listing.md`: privacy policy URL and homepage / support URL.
 
 Not in (owner decides):
-- A LICENSE file. Without one the public code is "all rights reserved".
+- ~~A LICENSE file~~ → added on request: MIT, © 2026 Damian Dandrade.
 - Whether rsc harness files (`.claude/`, `.rsc.json`, `01-TOOLS/`, `02-DOCS/`) stay in the public repo.
 - Committing / pushing.
 
@@ -30,6 +30,7 @@ Not in (owner decides):
 - [x] PRIVACY → no `CONTACT_EMAIL`; Issues link present.
 - [x] listing → privacy URL is the GitHub `PRIVACY.md` link.
 - [x] Unit + i18n checks still pass.
+- [x] LICENSE (MIT) at the root, linked from README → file present, README "License" section and tree entry.
 
 ## Evidence
 
@@ -39,7 +40,8 @@ Not in (owner decides):
 - `node tools/test-shared.js` → 17 checks passed; `node tools/check-i18n.js` → 258 keys, nothing missing.
 - GitHub API: repo public, `has_issues: true`; `.../blob/main/PRIVACY.md` → HTTP 200 (current pushed version
   still has the placeholder until these edits are pushed).
+- `LICENSE` written (standard MIT text); README ends with `## License` → `[MIT](LICENSE)`, tree lists `LICENSE`.
 
 ## Next
 
-Owner: commit and push, then decide on a LICENSE and on keeping the rsc harness files in the public repo.
+Owner: commit and push (GitHub then shows "MIT license" on the repo), and decide on keeping the rsc harness files in the public repo.
