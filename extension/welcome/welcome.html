@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DDinspect</title>
+  <script src="../sidepanel/theme.js"></script>
+  <link rel="stylesheet" href="../sidepanel/sidepanel.css">
+</head>
+<body class="wd-page">
+  <main class="wd-page-main">
+    <header class="wd-page-head">
+      <img src="../icons/logo.svg" alt="">
+      <div>
+        <h1 data-i18n="welcomeHeading"></h1>
+        <p data-i18n="welcomeIntro"></p>
+      </div>
+    </header>
+
+    <section class="wd-card">
+      <h2 data-i18n="welcomeStepsTitle"></h2>
+      <ol class="wd-steps">
+        <li><div><strong data-i18n="welcomeStep1"></strong><p data-i18n="welcomeStep1Text"></p></div></li>
+        <li><div><strong data-i18n="welcomeStep2"></strong><p id="step2-text"></p></div></li>
+        <li><div><strong data-i18n="welcomeStep3"></strong><p data-i18n="welcomeStep3Text"></p></div></li>
+      </ol>
+    </section>
+
+    <section class="wd-card">
+      <h2 data-i18n="welcomeFeaturesTitle"></h2>
+      <ul class="wd-feature-grid">
+        <li><strong data-i18n="featRulesTitle"></strong><span data-i18n="featRulesText"></span></li>
+        <li><strong data-i18n="featAssetsTitle"></strong><span data-i18n="featAssetsText"></span></li>
+        <li><strong data-i18n="featContrastTitle"></strong><span data-i18n="featContrastText"></span></li>
+        <li><strong data-i18n="featExportTitle"></strong><span data-i18n="featExportText"></span></li>
+        <li><strong data-i18n="featSavedTitle"></strong><span data-i18n="featSavedText"></span></li>
+        <li><strong data-i18n="featPrivacyTitle"></strong><span data-i18n="featPrivacyText"></span></li>
+      </ul>
+    </section>
+
+    <div class="wd-actions">
+      <button id="options" class="wd-btn wd-btn-primary" data-i18n="welcomeOptions"></button>
+    </div>
+  </main>
+
+  <script src="../shared/ddinspect-shared.js"></script>
+  <script src="welcome.js"></script>
+</body>
+</html>

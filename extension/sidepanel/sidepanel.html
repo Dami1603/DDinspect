@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DDinspect</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header class="wd-header">
+    <img class="wd-logo-img" src="../icons/logo.svg" alt="">
+    <div class="wd-title">
+      <strong>DDinspect</strong>
+      <span id="mode" class="wd-mode" aria-live="polite"></span>
+    </div>
+    <button id="toggle" class="wd-switch" role="switch" aria-checked="false" disabled>
+      <span class="wd-switch-track" aria-hidden="true"><span class="wd-switch-thumb"></span></span>
+      <span class="wd-switch-label" data-i18n="pickerLabel"></span>
+    </button>
+    <button id="options" class="wd-icon-btn" data-icon="sliders" data-i18n-title="optionsTitle" data-i18n-aria-label="optionsTitle"></button>
+    <button id="theme" class="wd-icon-btn"></button>
+    <button id="close" class="wd-icon-btn" data-icon="close" data-i18n-title="closeTitle" data-i18n-aria-label="closeTitle"></button>
+  </header>
+
+  <p id="restricted" class="wd-notice wd-hidden" data-i18n="restrictedNotice"></p>
+
+  <nav class="wd-tabs" role="tablist" data-i18n-aria-label="tabsLabel">
+    <button class="wd-tab" role="tab" id="tab-inspector" data-tab="inspector" aria-controls="body" data-i18n-title="tabInspectTitle">
+      <svg class="wd-tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l13 7-5.5 1.8L10.5 18z"/><path d="M13 12l5 5"/></svg>
+      <span class="wd-tab-label" data-i18n="tabInspect"></span>
+    </button>
+    <button class="wd-tab" role="tab" id="tab-images" data-tab="images" aria-controls="body" data-i18n-title="tabImagesTitle">
+      <svg class="wd-tab-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-8 8"/></svg>
+      <span class="wd-tab-label" data-i18n="tabImages"></span>
+      <span class="wd-count wd-hidden"></span>
+    </button>
+    <button class="wd-tab" role="tab" id="tab-svgs" data-tab="svgs" aria-controls="body" data-i18n-title="tabSvgsTitle">
+      <svg class="wd-tab-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="19" r="2"/><circle cx="19" cy="5" r="2"/><path d="M7 19c7 0 10-5 10-12"/><path d="M5 17V9M19 7h-8"/></svg>
+      <span class="wd-tab-label" data-i18n="tabSvgs"></span>
+      <span class="wd-count wd-hidden"></span>
+    </button>
+    <button class="wd-tab" role="tab" id="tab-colors" data-tab="colors" aria-controls="body" data-i18n-title="tabColorsTitle">
+      <svg class="wd-tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18c1.2 0 1.7-1 1.2-1.9-.5-1 .2-2.1 1.4-2.1H17a4 4 0 0 0 4-4c0-5.5-4-10-9-10z"/><circle cx="7.5" cy="11" r="1.2"/><circle cx="10.5" cy="7" r="1.2"/><circle cx="15" cy="7.5" r="1.2"/></svg>
+      <span class="wd-tab-label" data-i18n="tabColors"></span>
+      <span class="wd-count wd-hidden"></span>
+    </button>
+    <button class="wd-tab" role="tab" id="tab-fonts" data-tab="fonts" aria-controls="body" data-i18n-title="tabFontsTitle">
+      <svg class="wd-tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18L8 6l5 12M4.8 14h6.4"/><path d="M20 18v-5a2.5 2.5 0 0 0-4.6-1.3M20 15.5c0 1.5-1.2 2.5-2.6 2.5-1.3 0-2.4-.8-2.4-2s1-2 2.4-2H20"/></svg>
+      <span class="wd-tab-label" data-i18n="tabFonts"></span>
+      <span class="wd-count wd-hidden"></span>
+    </button>
+    <button class="wd-tab" role="tab" id="tab-saved" data-tab="saved" aria-controls="body" data-i18n-title="tabSavedTitle">
+      <svg class="wd-tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>
+      <span class="wd-tab-label" data-i18n="tabSaved"></span>
+      <span class="wd-count wd-hidden"></span>
+    </button>
+  </nav>
+
+  <main id="body" class="wd-body" role="tabpanel" tabindex="-1"></main>
+
+  <div id="toast" class="wd-toast" role="status" aria-live="polite"></div>
+
+  <script src="../shared/ddinspect-shared.js"></script>
+  <script src="zip.js"></script>
+  <script src="export-format.js"></script>
+  <script src="assets.js"></script>
+  <script src="sidepanel.js"></script>
+</body>
+</html>

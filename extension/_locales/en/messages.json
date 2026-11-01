@@ -1,0 +1,776 @@
+{
+  "extName": {
+    "message": "DDinspect – Inspect CSS & extract assets"
+  },
+  "extDescription": {
+    "message": "Pick any element to see its CSS and where it comes from, check contrast, export it as code and grab images, SVGs, colors and fonts."
+  },
+  "actionTitle": {
+    "message": "Open DDinspect"
+  },
+  "commandToggle": {
+    "message": "Turn the DDinspect picker on / off"
+  },
+  "menuToggle": {
+    "message": "Turn the DDinspect picker on / off"
+  },
+  "menuInspect": {
+    "message": "Inspect this element with DDinspect"
+  },
+  "menuSaved": {
+    "message": "Open saved elements"
+  },
+  "pickerLabel": {
+    "message": "Picker"
+  },
+  "pickerStart": {
+    "message": "Start picker"
+  },
+  "pickerStartTitle": {
+    "message": "Turn the picker on: hover over the page and click an element"
+  },
+  "pickerPauseTitle": {
+    "message": "Turn the picker off"
+  },
+  "modeOn": {
+    "message": "Picker on · Esc to exit"
+  },
+  "modeOff": {
+    "message": "Picker off"
+  },
+  "modeRestricted": {
+    "message": "Not available on this tab"
+  },
+  "optionsTitle": {
+    "message": "Options"
+  },
+  "closeTitle": {
+    "message": "Close DDinspect"
+  },
+  "themeDark": {
+    "message": "Switch to dark mode"
+  },
+  "themeLight": {
+    "message": "Switch to light mode"
+  },
+  "restrictedNotice": {
+    "message": "DDinspect can't run on this tab (browser pages, extension stores or the PDF viewer). Your saved elements are still available."
+  },
+  "tabsLabel": {
+    "message": "Sections"
+  },
+  "tabInspect": {
+    "message": "Inspect"
+  },
+  "tabInspectTitle": {
+    "message": "Inspect the selected element"
+  },
+  "tabImages": {
+    "message": "Images"
+  },
+  "tabImagesTitle": {
+    "message": "Images"
+  },
+  "tabSvgs": {
+    "message": "SVGs"
+  },
+  "tabSvgsTitle": {
+    "message": "Inline SVGs"
+  },
+  "tabColors": {
+    "message": "Colors"
+  },
+  "tabColorsTitle": {
+    "message": "Color palette and text contrast"
+  },
+  "tabFonts": {
+    "message": "Fonts"
+  },
+  "tabFontsTitle": {
+    "message": "Fonts"
+  },
+  "tabSaved": {
+    "message": "Saved"
+  },
+  "tabSavedTitle": {
+    "message": "Saved elements"
+  },
+  "emptyStartTitle": {
+    "message": "Turn on the picker,"
+  },
+  "emptyStartText": {
+    "message": "hover over the page and click an element."
+  },
+  "emptyParentFirst": {
+    "message": "Hovering grabs the parent of what is under the pointer (the button, not its text)"
+  },
+  "emptyKeyUp": {
+    "message": "go up one more level"
+  },
+  "emptyKeyDown": {
+    "message": "go down toward the exact element under the pointer"
+  },
+  "emptyKeyEnter": {
+    "message": "select the highlighted element"
+  },
+  "emptyKeyEsc": {
+    "message": "exit the picker"
+  },
+  "emptyKeyToggle": {
+    "message": "turn the picker on / off"
+  },
+  "emptyContextMenu": {
+    "message": "Or right click → Inspect this element with DDinspect"
+  },
+  "shortcutNotSet": {
+    "message": "No shortcut set"
+  },
+  "sectionComposition": {
+    "message": "Composition · children: {0}"
+  },
+  "sectionBox": {
+    "message": "Size & box model"
+  },
+  "sectionResources": {
+    "message": "Resources & links ({0})"
+  },
+  "sectionRules": {
+    "message": "Applied CSS rules ({0})"
+  },
+  "sectionComputed": {
+    "message": "Computed styles"
+  },
+  "sectionExport": {
+    "message": "Export as component"
+  },
+  "backToInspector": {
+    "message": "Back to inspector"
+  },
+  "savedFrom": {
+    "message": "Saved from"
+  },
+  "clickToSelect": {
+    "message": "Click to select"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "saveAgain": {
+    "message": "Save again"
+  },
+  "copySelector": {
+    "message": "Copy selector"
+  },
+  "copyCss": {
+    "message": "Copy CSS"
+  },
+  "copyHtml": {
+    "message": "Copy HTML"
+  },
+  "parent": {
+    "message": "Parent"
+  },
+  "parentTitle": {
+    "message": "Select the parent element"
+  },
+  "thumbnailAlt": {
+    "message": "Element thumbnail"
+  },
+  "contrastTitle": {
+    "message": "Text {0} on {1}"
+  },
+  "contrastLarge": {
+    "message": "large text"
+  },
+  "contrastApprox": {
+    "message": "estimate: there is a background image"
+  },
+  "wcagFail": {
+    "message": "Fails"
+  },
+  "statChildren": {
+    "message": "Direct children"
+  },
+  "statDescendants": {
+    "message": "Descendants"
+  },
+  "statDepth": {
+    "message": "Depth"
+  },
+  "subtitleChildren": {
+    "message": "Children"
+  },
+  "subtitleAttributes": {
+    "message": "Attributes"
+  },
+  "subtitleText": {
+    "message": "Text"
+  },
+  "subtitleHtmlTrimmed": {
+    "message": "HTML (trimmed to 5000 characters)"
+  },
+  "statWidth": {
+    "message": "Width"
+  },
+  "statHeight": {
+    "message": "Height"
+  },
+  "statPageX": {
+    "message": "X (page)"
+  },
+  "statPageY": {
+    "message": "Y (page)"
+  },
+  "statArea": {
+    "message": "Area"
+  },
+  "noResources": {
+    "message": "This element and its descendants have no src, href, srcset or background images."
+  },
+  "resourceFromElement": {
+    "message": "element"
+  },
+  "trimmedDataUri": {
+    "message": "Trimmed data: URI"
+  },
+  "copyUrl": {
+    "message": "Copy URL"
+  },
+  "corsBlocked": {
+    "message": "{0} stylesheet(s) could not be read"
+  },
+  "corsBlockedText": {
+    "message": "Neither the page nor DDinspect could read them. Their rules may also apply:"
+  },
+  "noRules": {
+    "message": "No readable CSS rule targets this element: only browser defaults or inherited styles."
+  },
+  "notEvaluated": {
+    "message": "(not evaluated)"
+  },
+  "specificityTitle": {
+    "message": "Approximate specificity (id, class, type)"
+  },
+  "sourceFile": {
+    "message": "File"
+  },
+  "sourceInlineLabel": {
+    "message": "Element style=\"\" attribute"
+  },
+  "sourceStylePage": {
+    "message": "<style> #{0} in the page"
+  },
+  "sourceStyleShadow": {
+    "message": "<style> #{0} in shadow DOM"
+  },
+  "ruleFetched": {
+    "message": "fetched"
+  },
+  "ruleFetchedTitle": {
+    "message": "The page blocks reading this stylesheet (CORS), so DDinspect downloaded a copy to show its rules."
+  },
+  "overriddenTitle": {
+    "message": "Overridden: another declaration wins the cascade"
+  },
+  "groupLayout": {
+    "message": "Layout"
+  },
+  "groupBox": {
+    "message": "Box"
+  },
+  "groupBorders": {
+    "message": "Borders"
+  },
+  "groupTypography": {
+    "message": "Typography"
+  },
+  "groupBackground": {
+    "message": "Background"
+  },
+  "groupEffects": {
+    "message": "Effects"
+  },
+  "allProperties": {
+    "message": "All properties ({0})"
+  },
+  "filterProperties": {
+    "message": "Filter properties… (e.g. font, color)"
+  },
+  "exportIntro": {
+    "message": "Turns this element into standalone code: its markup plus the CSS it really uses, without the page."
+  },
+  "exportGenerate": {
+    "message": "Generate code"
+  },
+  "exportWorking": {
+    "message": "Reading the element styles…"
+  },
+  "exportFailed": {
+    "message": "Could not export: select the element again"
+  },
+  "exportFormat": {
+    "message": "Format"
+  },
+  "exportHtml": {
+    "message": "HTML + CSS"
+  },
+  "exportJsx": {
+    "message": "React (JSX)"
+  },
+  "exportTailwind": {
+    "message": "Tailwind"
+  },
+  "exportStats": {
+    "message": "{0} elements · {1} CSS rules."
+  },
+  "exportTruncated": {
+    "message": "Large element: only the first 400 elements were styled."
+  },
+  "exportTailwindNote": {
+    "message": "Uses arbitrary properties like [display:flex] (Tailwind 3.3+)."
+  },
+  "exportPreview": {
+    "message": "Preview"
+  },
+  "exportRegenerate": {
+    "message": "Regenerate"
+  },
+  "copyCode": {
+    "message": "Copy code"
+  },
+  "copyJsx": {
+    "message": "Copy JSX"
+  },
+  "downloadHtml": {
+    "message": "Download .html"
+  },
+  "downloadZip": {
+    "message": "Download ZIP"
+  },
+  "renameTitle": {
+    "message": "Click to rename"
+  },
+  "view": {
+    "message": "View"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "deleteAll": {
+    "message": "Delete all"
+  },
+  "deleteAllConfirm": {
+    "message": "Click again to delete all"
+  },
+  "exportJson": {
+    "message": "Export JSON"
+  },
+  "importJson": {
+    "message": "Import JSON"
+  },
+  "importInvalid": {
+    "message": "That file is not a DDinspect export"
+  },
+  "importDone": {
+    "message": "Imported {0} · skipped {1}"
+  },
+  "savedEmpty": {
+    "message": "No saved elements yet. Pick one and press Save, or import a JSON export."
+  },
+  "savedNoMatch": {
+    "message": "No saved element matches your search."
+  },
+  "savedSearch": {
+    "message": "Search by name, selector or site…"
+  },
+  "toastCopied": {
+    "message": "Copied to clipboard"
+  },
+  "toastCopyFailed": {
+    "message": "Could not copy"
+  },
+  "toastSelectorCopied": {
+    "message": "Selector copied"
+  },
+  "toastCssCopied": {
+    "message": "CSS copied"
+  },
+  "toastHtmlCopied": {
+    "message": "HTML copied"
+  },
+  "toastCodeCopied": {
+    "message": "Code copied"
+  },
+  "toastUrlCopied": {
+    "message": "URL copied"
+  },
+  "toastUrlsCopied": {
+    "message": "URLs copied"
+  },
+  "toastSvgCopied": {
+    "message": "SVG copied"
+  },
+  "toastCssVarsCopied": {
+    "message": "CSS variables copied"
+  },
+  "toastListCopied": {
+    "message": "Color list copied"
+  },
+  "toastValueCopied": {
+    "message": "{0} copied"
+  },
+  "toastFontFamilyCopied": {
+    "message": "font-family copied"
+  },
+  "toastFontCssCopied": {
+    "message": "Font CSS copied"
+  },
+  "toastSaving": {
+    "message": "Saving…"
+  },
+  "toastSaved": {
+    "message": "Element saved"
+  },
+  "toastSaveFailed": {
+    "message": "Could not save: the element is no longer on the page"
+  },
+  "toastDownloadFallback": {
+    "message": "Could not download it: opening it in a new tab"
+  },
+  "toastPacking": {
+    "message": "Packing {0} / {1}…"
+  },
+  "toastNothingDownloaded": {
+    "message": "Nothing could be downloaded"
+  },
+  "toastZipPartial": {
+    "message": "ZIP ready · {0} file(s) failed"
+  },
+  "toastZipReady": {
+    "message": "ZIP ready · {0} files"
+  },
+  "scopeLabel": {
+    "message": "What to scan"
+  },
+  "scopeSelection": {
+    "message": "Selected element"
+  },
+  "scopeSelectionTitle": {
+    "message": "Scan {0} and its descendants"
+  },
+  "scopeSelectionDisabled": {
+    "message": "Pick an element first"
+  },
+  "scopePage": {
+    "message": "Whole page"
+  },
+  "scopePageTitle": {
+    "message": "Scan the whole page"
+  },
+  "scopeNote": {
+    "message": "Only {0} and its descendants ({1} elements)."
+  },
+  "rescanTitle": {
+    "message": "Scan again (for content loaded later)"
+  },
+  "scanRestricted": {
+    "message": "DDinspect can't scan this tab."
+  },
+  "scanning": {
+    "message": "Scanning the page…"
+  },
+  "scanFailed": {
+    "message": "The scan failed. Reload the page and scan again."
+  },
+  "scanTruncated": {
+    "message": "Large page: styles were read from the first 8000 elements."
+  },
+  "noPreview": {
+    "message": "No preview"
+  },
+  "usedTimes": {
+    "message": "Used {0} times"
+  },
+  "download": {
+    "message": "Download"
+  },
+  "openNewTab": {
+    "message": "Open in a new tab"
+  },
+  "locate": {
+    "message": "Locate on the page"
+  },
+  "noImages": {
+    "message": "No images found."
+  },
+  "imagesCount": {
+    "message": "{0} of {1} images"
+  },
+  "noImageMatch": {
+    "message": "No image matches."
+  },
+  "zipImagesTitle": {
+    "message": "Download the listed images as a ZIP"
+  },
+  "copyUrls": {
+    "message": "Copy URLs"
+  },
+  "filterAll": {
+    "message": "All"
+  },
+  "filterImg": {
+    "message": "<img>"
+  },
+  "filterCss": {
+    "message": "CSS"
+  },
+  "filterSvg": {
+    "message": "SVG"
+  },
+  "filterOther": {
+    "message": "Other"
+  },
+  "filterImages": {
+    "message": "Filter by URL or alt text…"
+  },
+  "noSvgs": {
+    "message": "No inline SVGs found."
+  },
+  "svgsCount": {
+    "message": "{0} SVGs"
+  },
+  "lightBackground": {
+    "message": "Light background"
+  },
+  "darkBackground": {
+    "message": "Dark background"
+  },
+  "previewBackground": {
+    "message": "Preview background"
+  },
+  "zipSvgsTitle": {
+    "message": "Download every SVG as a ZIP"
+  },
+  "copyMarkup": {
+    "message": "Copy markup"
+  },
+  "downloadSvg": {
+    "message": "Download .svg"
+  },
+  "noColors": {
+    "message": "No colors found."
+  },
+  "colorsCount": {
+    "message": "{0} colors"
+  },
+  "copyCssVars": {
+    "message": "Copy CSS vars"
+  },
+  "copyList": {
+    "message": "Copy list"
+  },
+  "copyValue": {
+    "message": "Copy value"
+  },
+  "role_all": {
+    "message": "All"
+  },
+  "role_text": {
+    "message": "Text"
+  },
+  "role_background": {
+    "message": "Background"
+  },
+  "role_border": {
+    "message": "Border"
+  },
+  "role_svg": {
+    "message": "SVG"
+  },
+  "role_shadow": {
+    "message": "Shadow"
+  },
+  "role_gradient": {
+    "message": "Gradient"
+  },
+  "contrastSection": {
+    "message": "Text contrast · {0} pairs · {1} fail"
+  },
+  "contrastIntro": {
+    "message": "WCAG 2 ratio of each text color against what is behind it. AA needs 4.5:1 (3:1 for large text), AAA 7:1. Worst first."
+  },
+  "noFonts": {
+    "message": "No text found."
+  },
+  "fontsCount": {
+    "message": "{0} font families"
+  },
+  "fontUses": {
+    "message": "{0}× · {1} styles"
+  },
+  "copyFontFamily": {
+    "message": "Copy font-family"
+  },
+  "downloadFont": {
+    "message": "Download font file"
+  },
+  "fontSample": {
+    "message": "The quick brown fox jumps over the lazy dog"
+  },
+  "tipPosition": {
+    "message": "Position"
+  },
+  "tipColor": {
+    "message": "Color"
+  },
+  "tipBackground": {
+    "message": "Background"
+  },
+  "tipContrast": {
+    "message": "Contrast"
+  },
+  "tipFont": {
+    "message": "Font"
+  },
+  "tipFontSize": {
+    "message": "Font size"
+  },
+  "tipWeight": {
+    "message": "Weight"
+  },
+  "tipLineHeight": {
+    "message": "Line height"
+  },
+  "tipPadding": {
+    "message": "Padding"
+  },
+  "tipMargin": {
+    "message": "Margin"
+  },
+  "tipHint": {
+    "message": "↑ parent · click to select"
+  },
+  "tipHintInner": {
+    "message": "↓ inner element · ↑ parent · click to select"
+  },
+  "optionsHeading": {
+    "message": "Options"
+  },
+  "optionsIntro": {
+    "message": "Changes apply right away, also to an open panel."
+  },
+  "optColorTitle": {
+    "message": "Color format"
+  },
+  "optColorText": {
+    "message": "How colors are shown and copied in the panel and the hover card."
+  },
+  "optScopeTitle": {
+    "message": "Default scan scope"
+  },
+  "optScopeText": {
+    "message": "What the Images, SVGs, Colors and Fonts tabs scan first."
+  },
+  "optThemeTitle": {
+    "message": "Theme"
+  },
+  "optThemeText": {
+    "message": "Applies to the panel and these pages."
+  },
+  "themeOptLight": {
+    "message": "Light"
+  },
+  "themeOptDark": {
+    "message": "Dark"
+  },
+  "themeOptSystem": {
+    "message": "Same as the system"
+  },
+  "optShortcutTitle": {
+    "message": "Keyboard shortcut"
+  },
+  "optShortcutCurrent": {
+    "message": "Turns the picker on / off: {0}"
+  },
+  "optShortcutChange": {
+    "message": "Change shortcut"
+  },
+  "optShortcutFirefox": {
+    "message": "Firefox: about:addons → gear menu → Manage Extension Shortcuts."
+  },
+  "optSaved": {
+    "message": "Saved"
+  },
+  "welcomeHeading": {
+    "message": "Welcome to DDinspect"
+  },
+  "welcomeIntro": {
+    "message": "Take any web component apart: its CSS, where that CSS comes from, and the assets it uses."
+  },
+  "welcomeStepsTitle": {
+    "message": "Start in three steps"
+  },
+  "welcomeStep1": {
+    "message": "Pin the icon"
+  },
+  "welcomeStep1Text": {
+    "message": "Puzzle icon in the toolbar → pin DDinspect. Clicking it opens the side panel."
+  },
+  "welcomeStep2": {
+    "message": "Turn on the picker"
+  },
+  "welcomeStep2Text": {
+    "message": "Use the switch in the panel or press {0}."
+  },
+  "welcomeStep2NoShortcut": {
+    "message": "Use the switch in the panel."
+  },
+  "welcomeStep3": {
+    "message": "Click an element"
+  },
+  "welcomeStep3Text": {
+    "message": "The panel shows its rules, sizes, contrast and assets. ↑ / ↓ move between parent and child."
+  },
+  "welcomeFeaturesTitle": {
+    "message": "What you get"
+  },
+  "featRulesTitle": {
+    "message": "CSS with its origin"
+  },
+  "featRulesText": {
+    "message": "Every rule that applies, the file it comes from, and what is overridden."
+  },
+  "featAssetsTitle": {
+    "message": "Assets"
+  },
+  "featAssetsText": {
+    "message": "Images, SVGs, colors and fonts, downloadable one by one or as a ZIP."
+  },
+  "featContrastTitle": {
+    "message": "Contrast"
+  },
+  "featContrastText": {
+    "message": "WCAG ratio for each text, on hover and in the Colors tab."
+  },
+  "featExportTitle": {
+    "message": "Export as code"
+  },
+  "featExportText": {
+    "message": "HTML + CSS, React or Tailwind, with a live preview."
+  },
+  "featSavedTitle": {
+    "message": "Your collection"
+  },
+  "featSavedText": {
+    "message": "Save elements with a thumbnail, export and import them as JSON."
+  },
+  "featPrivacyTitle": {
+    "message": "Private"
+  },
+  "featPrivacyText": {
+    "message": "Everything stays in your browser. No accounts, no tracking."
+  },
+  "welcomeOptions": {
+    "message": "Open options"
+  }
+}

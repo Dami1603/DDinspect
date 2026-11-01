@@ -1,0 +1,124 @@
+/* DDinspect - styles for the picker overlay drawn over the page.
+   Loaded as a constructable stylesheet inside a closed Shadow DOM,
+   so they neither inherit nor override the page styles. */
+
+:host {
+  all: initial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wd-hidden {
+  display: none !important;
+}
+
+/* Box model (DevTools-like colors) */
+.wd-box > div {
+  position: fixed;
+  pointer-events: none;
+  border-style: solid;
+}
+
+.wd-box-margin  { border-color: rgba(246, 178, 107, 0.55); }
+.wd-box-border  { border-color: rgba(255, 229, 153, 0.7); }
+.wd-box-padding { border-color: rgba(147, 196, 125, 0.55); }
+.wd-box-content { background: rgba(111, 168, 220, 0.45); }
+
+/* Selected element */
+.wd-selected-outline {
+  position: fixed;
+  pointer-events: none;
+  outline: 2px dashed #7c4dff;
+  outline-offset: 1px;
+  box-shadow: 0 0 0 9999px rgba(18, 12, 40, 0.06);
+}
+
+/* Hover card: tag + size, then the key computed values */
+.wd-tip {
+  position: fixed;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: max-content;
+  min-width: 200px;
+  max-width: 300px;
+  padding: 8px 10px;
+  border: 1px solid #e3e0f0;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #1f1b2e;
+  font: 11.5px/1.45 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  box-shadow: 0 8px 24px rgba(31, 27, 46, 0.2);
+}
+
+.wd-tip-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 3px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efedf8;
+  font: 700 12px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: nowrap;
+}
+
+.wd-tip-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #6a3df0;
+}
+
+.wd-tip-size {
+  flex: none;
+  color: #00806d;
+}
+
+.wd-tip-row {
+  display: grid;
+  grid-template-columns: 78px 1fr;
+  gap: 8px;
+  align-items: center;
+}
+
+.wd-tip-key {
+  color: #6e6987;
+}
+
+.wd-tip-val {
+  overflow: hidden;
+  color: #1f1b2e;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wd-tip-val.wd-tip-good {
+  color: #00806d;
+  font-weight: 700;
+}
+
+.wd-tip-val.wd-tip-bad {
+  color: #d92d3a;
+  font-weight: 700;
+}
+
+.wd-tip-hint {
+  margin-top: 3px;
+  padding-top: 5px;
+  border-top: 1px solid #efedf8;
+  color: #6e6987;
+  font-size: 10.5px;
+}
+
+.wd-tip-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  vertical-align: -1px;
+}

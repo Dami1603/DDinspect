@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DDinspect</title>
+  <script src="../sidepanel/theme.js"></script>
+  <link rel="stylesheet" href="../sidepanel/sidepanel.css">
+</head>
+<body class="wd-page">
+  <main class="wd-page-main">
+    <header class="wd-page-head">
+      <img src="../icons/logo.svg" alt="">
+      <div>
+        <h1 data-i18n="optionsHeading"></h1>
+        <p data-i18n="optionsIntro"></p>
+      </div>
+    </header>
+
+    <section class="wd-card">
+      <h2 id="color-title" data-i18n="optColorTitle"></h2>
+      <p data-i18n="optColorText"></p>
+      <fieldset class="wd-choices" aria-labelledby="color-title">
+        <label class="wd-choice"><input type="radio" name="colorFormat" value="hex"><span>HEX<small>#7c4dff</small></span></label>
+        <label class="wd-choice"><input type="radio" name="colorFormat" value="rgb"><span>RGB<small>rgb(124, 77, 255)</small></span></label>
+        <label class="wd-choice"><input type="radio" name="colorFormat" value="hsl"><span>HSL<small>hsl(256, 100%, 65%)</small></span></label>
+        <label class="wd-choice"><input type="radio" name="colorFormat" value="oklch"><span>OKLCH<small>oklch(57.9% 0.247 288.2)</small></span></label>
+      </fieldset>
+    </section>
+
+    <section class="wd-card">
+      <h2 id="scope-title" data-i18n="optScopeTitle"></h2>
+      <p data-i18n="optScopeText"></p>
+      <fieldset class="wd-choices" aria-labelledby="scope-title">
+        <label class="wd-choice"><input type="radio" name="scope" value="selection"><span data-i18n="scopeSelection"></span></label>
+        <label class="wd-choice"><input type="radio" name="scope" value="page"><span data-i18n="scopePage"></span></label>
+      </fieldset>
+    </section>
+
+    <section class="wd-card">
+      <h2 id="theme-title" data-i18n="optThemeTitle"></h2>
+      <p data-i18n="optThemeText"></p>
+      <fieldset class="wd-choices" aria-labelledby="theme-title">
+        <label class="wd-choice"><input type="radio" name="theme" value="light"><span data-i18n="themeOptLight"></span></label>
+        <label class="wd-choice"><input type="radio" name="theme" value="dark"><span data-i18n="themeOptDark"></span></label>
+        <label class="wd-choice"><input type="radio" name="theme" value="system"><span data-i18n="themeOptSystem"></span></label>
+      </fieldset>
+    </section>
+
+    <section class="wd-card">
+      <h2 data-i18n="optShortcutTitle"></h2>
+      <p id="shortcut-text"></p>
+      <button id="shortcuts" class="wd-btn" data-i18n="optShortcutChange"></button>
+      <span id="saved-flag" class="wd-saved-flag" role="status" aria-live="polite"></span>
+    </section>
+  </main>
+
+  <script src="../shared/ddinspect-shared.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

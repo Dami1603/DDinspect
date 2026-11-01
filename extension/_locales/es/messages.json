@@ -1,0 +1,776 @@
+{
+  "extName": {
+    "message": "DDinspect – Inspecciona CSS y extrae recursos"
+  },
+  "extDescription": {
+    "message": "Elige un elemento y mira su CSS y su origen, revisa el contraste, expórtalo como código y extrae imágenes, SVG, colores y fuentes."
+  },
+  "actionTitle": {
+    "message": "Abrir DDinspect"
+  },
+  "commandToggle": {
+    "message": "Activar / desactivar el selector de DDinspect"
+  },
+  "menuToggle": {
+    "message": "Activar / desactivar el selector de DDinspect"
+  },
+  "menuInspect": {
+    "message": "Inspeccionar este elemento con DDinspect"
+  },
+  "menuSaved": {
+    "message": "Abrir elementos guardados"
+  },
+  "pickerLabel": {
+    "message": "Selector"
+  },
+  "pickerStart": {
+    "message": "Activar selector"
+  },
+  "pickerStartTitle": {
+    "message": "Activa el selector: pasa el mouse por la página y haz clic en un elemento"
+  },
+  "pickerPauseTitle": {
+    "message": "Desactiva el selector"
+  },
+  "modeOn": {
+    "message": "Activo · Esc para salir"
+  },
+  "modeOff": {
+    "message": "Selector apagado"
+  },
+  "modeRestricted": {
+    "message": "No disponible en esta pestaña"
+  },
+  "optionsTitle": {
+    "message": "Opciones"
+  },
+  "closeTitle": {
+    "message": "Cerrar DDinspect"
+  },
+  "themeDark": {
+    "message": "Cambiar a modo oscuro"
+  },
+  "themeLight": {
+    "message": "Cambiar a modo claro"
+  },
+  "restrictedNotice": {
+    "message": "DDinspect no puede funcionar en esta pestaña (páginas del navegador, tiendas de extensiones o el visor de PDF). Tus elementos guardados siguen disponibles."
+  },
+  "tabsLabel": {
+    "message": "Secciones"
+  },
+  "tabInspect": {
+    "message": "Inspector"
+  },
+  "tabInspectTitle": {
+    "message": "Inspecciona el elemento seleccionado"
+  },
+  "tabImages": {
+    "message": "Imágenes"
+  },
+  "tabImagesTitle": {
+    "message": "Imágenes"
+  },
+  "tabSvgs": {
+    "message": "SVG"
+  },
+  "tabSvgsTitle": {
+    "message": "SVG en línea"
+  },
+  "tabColors": {
+    "message": "Colores"
+  },
+  "tabColorsTitle": {
+    "message": "Paleta de colores y contraste del texto"
+  },
+  "tabFonts": {
+    "message": "Fuentes"
+  },
+  "tabFontsTitle": {
+    "message": "Fuentes"
+  },
+  "tabSaved": {
+    "message": "Guardados"
+  },
+  "tabSavedTitle": {
+    "message": "Elementos guardados"
+  },
+  "emptyStartTitle": {
+    "message": "Activa el selector,"
+  },
+  "emptyStartText": {
+    "message": "pasa el mouse por la página y haz clic en un elemento."
+  },
+  "emptyParentFirst": {
+    "message": "Al pasar el mouse se toma el contenedor de lo que está debajo (el botón, no su texto)"
+  },
+  "emptyKeyUp": {
+    "message": "sube un nivel más"
+  },
+  "emptyKeyDown": {
+    "message": "baja hacia el elemento exacto bajo el puntero"
+  },
+  "emptyKeyEnter": {
+    "message": "selecciona el elemento resaltado"
+  },
+  "emptyKeyEsc": {
+    "message": "sale del selector"
+  },
+  "emptyKeyToggle": {
+    "message": "activa / desactiva el selector"
+  },
+  "emptyContextMenu": {
+    "message": "O clic derecho → Inspeccionar este elemento con DDinspect"
+  },
+  "shortcutNotSet": {
+    "message": "Sin atajo de teclado"
+  },
+  "sectionComposition": {
+    "message": "Composición · hijos: {0}"
+  },
+  "sectionBox": {
+    "message": "Tamaño y modelo de caja"
+  },
+  "sectionResources": {
+    "message": "Recursos y enlaces ({0})"
+  },
+  "sectionRules": {
+    "message": "Reglas CSS aplicadas ({0})"
+  },
+  "sectionComputed": {
+    "message": "Estilos calculados"
+  },
+  "sectionExport": {
+    "message": "Exportar como componente"
+  },
+  "backToInspector": {
+    "message": "Volver al inspector"
+  },
+  "savedFrom": {
+    "message": "Guardado desde"
+  },
+  "clickToSelect": {
+    "message": "Haz clic para seleccionar"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "saveAgain": {
+    "message": "Guardar otra vez"
+  },
+  "copySelector": {
+    "message": "Copiar selector"
+  },
+  "copyCss": {
+    "message": "Copiar CSS"
+  },
+  "copyHtml": {
+    "message": "Copiar HTML"
+  },
+  "parent": {
+    "message": "Contenedor"
+  },
+  "parentTitle": {
+    "message": "Selecciona el elemento contenedor"
+  },
+  "thumbnailAlt": {
+    "message": "Miniatura del elemento"
+  },
+  "contrastTitle": {
+    "message": "Texto {0} sobre {1}"
+  },
+  "contrastLarge": {
+    "message": "texto grande"
+  },
+  "contrastApprox": {
+    "message": "estimación: hay una imagen de fondo"
+  },
+  "wcagFail": {
+    "message": "No pasa"
+  },
+  "statChildren": {
+    "message": "Hijos directos"
+  },
+  "statDescendants": {
+    "message": "Descendientes"
+  },
+  "statDepth": {
+    "message": "Profundidad"
+  },
+  "subtitleChildren": {
+    "message": "Hijos"
+  },
+  "subtitleAttributes": {
+    "message": "Atributos"
+  },
+  "subtitleText": {
+    "message": "Texto"
+  },
+  "subtitleHtmlTrimmed": {
+    "message": "HTML (recortado a 5000 caracteres)"
+  },
+  "statWidth": {
+    "message": "Ancho"
+  },
+  "statHeight": {
+    "message": "Alto"
+  },
+  "statPageX": {
+    "message": "X (página)"
+  },
+  "statPageY": {
+    "message": "Y (página)"
+  },
+  "statArea": {
+    "message": "Área"
+  },
+  "noResources": {
+    "message": "Este elemento y sus descendientes no tienen src, href, srcset ni imágenes de fondo."
+  },
+  "resourceFromElement": {
+    "message": "elemento"
+  },
+  "trimmedDataUri": {
+    "message": "URI data: recortada"
+  },
+  "copyUrl": {
+    "message": "Copiar URL"
+  },
+  "corsBlocked": {
+    "message": "No se pudieron leer {0} hojas de estilo"
+  },
+  "corsBlockedText": {
+    "message": "Ni la página ni DDinspect pudieron leerlas. Sus reglas también pueden aplicarse:"
+  },
+  "noRules": {
+    "message": "Ninguna regla CSS legible apunta a este elemento: solo estilos del navegador o heredados."
+  },
+  "notEvaluated": {
+    "message": "(sin evaluar)"
+  },
+  "specificityTitle": {
+    "message": "Especificidad aproximada (id, clase, tipo)"
+  },
+  "sourceFile": {
+    "message": "Archivo"
+  },
+  "sourceInlineLabel": {
+    "message": "Atributo style=\"\" del elemento"
+  },
+  "sourceStylePage": {
+    "message": "<style> n.º {0} de la página"
+  },
+  "sourceStyleShadow": {
+    "message": "<style> n.º {0} del shadow DOM"
+  },
+  "ruleFetched": {
+    "message": "descargada"
+  },
+  "ruleFetchedTitle": {
+    "message": "La página bloquea la lectura de esta hoja (CORS), así que DDinspect descargó una copia para mostrar sus reglas."
+  },
+  "overriddenTitle": {
+    "message": "Pisada: otra declaración gana en la cascada"
+  },
+  "groupLayout": {
+    "message": "Disposición"
+  },
+  "groupBox": {
+    "message": "Caja"
+  },
+  "groupBorders": {
+    "message": "Bordes"
+  },
+  "groupTypography": {
+    "message": "Tipografía"
+  },
+  "groupBackground": {
+    "message": "Fondo"
+  },
+  "groupEffects": {
+    "message": "Efectos"
+  },
+  "allProperties": {
+    "message": "Todas las propiedades ({0})"
+  },
+  "filterProperties": {
+    "message": "Filtrar propiedades… (p. ej. font, color)"
+  },
+  "exportIntro": {
+    "message": "Convierte este elemento en código independiente: su HTML más el CSS que de verdad usa, sin el resto de la página."
+  },
+  "exportGenerate": {
+    "message": "Generar código"
+  },
+  "exportWorking": {
+    "message": "Leyendo los estilos del elemento…"
+  },
+  "exportFailed": {
+    "message": "No se pudo exportar: vuelve a seleccionar el elemento"
+  },
+  "exportFormat": {
+    "message": "Formato"
+  },
+  "exportHtml": {
+    "message": "HTML + CSS"
+  },
+  "exportJsx": {
+    "message": "React (JSX)"
+  },
+  "exportTailwind": {
+    "message": "Tailwind"
+  },
+  "exportStats": {
+    "message": "{0} elementos · {1} reglas CSS."
+  },
+  "exportTruncated": {
+    "message": "Elemento grande: solo se tomaron los estilos de los primeros 400 elementos."
+  },
+  "exportTailwindNote": {
+    "message": "Usa propiedades arbitrarias como [display:flex] (Tailwind 3.3+)."
+  },
+  "exportPreview": {
+    "message": "Vista previa"
+  },
+  "exportRegenerate": {
+    "message": "Regenerar"
+  },
+  "copyCode": {
+    "message": "Copiar código"
+  },
+  "copyJsx": {
+    "message": "Copiar JSX"
+  },
+  "downloadHtml": {
+    "message": "Descargar .html"
+  },
+  "downloadZip": {
+    "message": "Descargar ZIP"
+  },
+  "renameTitle": {
+    "message": "Haz clic para renombrar"
+  },
+  "view": {
+    "message": "Ver"
+  },
+  "delete": {
+    "message": "Borrar"
+  },
+  "deleteAll": {
+    "message": "Borrar todo"
+  },
+  "deleteAllConfirm": {
+    "message": "Haz clic otra vez para borrar todo"
+  },
+  "exportJson": {
+    "message": "Exportar JSON"
+  },
+  "importJson": {
+    "message": "Importar JSON"
+  },
+  "importInvalid": {
+    "message": "Ese archivo no es una exportación de DDinspect"
+  },
+  "importDone": {
+    "message": "Importados {0} · omitidos {1}"
+  },
+  "savedEmpty": {
+    "message": "Todavía no hay elementos guardados. Elige uno y pulsa Guardar, o importa un JSON exportado."
+  },
+  "savedNoMatch": {
+    "message": "Ningún elemento guardado coincide con la búsqueda."
+  },
+  "savedSearch": {
+    "message": "Buscar por nombre, selector o sitio…"
+  },
+  "toastCopied": {
+    "message": "Copiado al portapapeles"
+  },
+  "toastCopyFailed": {
+    "message": "No se pudo copiar"
+  },
+  "toastSelectorCopied": {
+    "message": "Selector copiado"
+  },
+  "toastCssCopied": {
+    "message": "CSS copiado"
+  },
+  "toastHtmlCopied": {
+    "message": "HTML copiado"
+  },
+  "toastCodeCopied": {
+    "message": "Código copiado"
+  },
+  "toastUrlCopied": {
+    "message": "URL copiada"
+  },
+  "toastUrlsCopied": {
+    "message": "URLs copiadas"
+  },
+  "toastSvgCopied": {
+    "message": "SVG copiado"
+  },
+  "toastCssVarsCopied": {
+    "message": "Variables CSS copiadas"
+  },
+  "toastListCopied": {
+    "message": "Lista de colores copiada"
+  },
+  "toastValueCopied": {
+    "message": "{0} copiado"
+  },
+  "toastFontFamilyCopied": {
+    "message": "font-family copiado"
+  },
+  "toastFontCssCopied": {
+    "message": "CSS de la fuente copiado"
+  },
+  "toastSaving": {
+    "message": "Guardando…"
+  },
+  "toastSaved": {
+    "message": "Elemento guardado"
+  },
+  "toastSaveFailed": {
+    "message": "No se pudo guardar: el elemento ya no está en la página"
+  },
+  "toastDownloadFallback": {
+    "message": "No se pudo descargar: se abre en una pestaña nueva"
+  },
+  "toastPacking": {
+    "message": "Empaquetando {0} / {1}…"
+  },
+  "toastNothingDownloaded": {
+    "message": "No se pudo descargar nada"
+  },
+  "toastZipPartial": {
+    "message": "ZIP listo · fallaron {0} archivo(s)"
+  },
+  "toastZipReady": {
+    "message": "ZIP listo · {0} archivos"
+  },
+  "scopeLabel": {
+    "message": "Qué escanear"
+  },
+  "scopeSelection": {
+    "message": "Elemento seleccionado"
+  },
+  "scopeSelectionTitle": {
+    "message": "Escanea {0} y sus descendientes"
+  },
+  "scopeSelectionDisabled": {
+    "message": "Primero elige un elemento"
+  },
+  "scopePage": {
+    "message": "Toda la página"
+  },
+  "scopePageTitle": {
+    "message": "Escanea toda la página"
+  },
+  "scopeNote": {
+    "message": "Solo {0} y sus descendientes ({1} elementos)."
+  },
+  "rescanTitle": {
+    "message": "Volver a escanear (para contenido cargado después)"
+  },
+  "scanRestricted": {
+    "message": "DDinspect no puede escanear esta pestaña."
+  },
+  "scanning": {
+    "message": "Escaneando la página…"
+  },
+  "scanFailed": {
+    "message": "El escaneo falló. Recarga la página y vuelve a escanear."
+  },
+  "scanTruncated": {
+    "message": "Página grande: se leyeron los estilos de los primeros 8000 elementos."
+  },
+  "noPreview": {
+    "message": "Sin vista previa"
+  },
+  "usedTimes": {
+    "message": "Usado {0} veces"
+  },
+  "download": {
+    "message": "Descargar"
+  },
+  "openNewTab": {
+    "message": "Abrir en una pestaña nueva"
+  },
+  "locate": {
+    "message": "Ubicar en la página"
+  },
+  "noImages": {
+    "message": "No se encontraron imágenes."
+  },
+  "imagesCount": {
+    "message": "{0} de {1} imágenes"
+  },
+  "noImageMatch": {
+    "message": "Ninguna imagen coincide."
+  },
+  "zipImagesTitle": {
+    "message": "Descarga las imágenes listadas en un ZIP"
+  },
+  "copyUrls": {
+    "message": "Copiar URLs"
+  },
+  "filterAll": {
+    "message": "Todas"
+  },
+  "filterImg": {
+    "message": "<img>"
+  },
+  "filterCss": {
+    "message": "CSS"
+  },
+  "filterSvg": {
+    "message": "SVG"
+  },
+  "filterOther": {
+    "message": "Otras"
+  },
+  "filterImages": {
+    "message": "Filtrar por URL o texto alternativo…"
+  },
+  "noSvgs": {
+    "message": "No se encontraron SVG en línea."
+  },
+  "svgsCount": {
+    "message": "{0} SVG"
+  },
+  "lightBackground": {
+    "message": "Fondo claro"
+  },
+  "darkBackground": {
+    "message": "Fondo oscuro"
+  },
+  "previewBackground": {
+    "message": "Fondo de la vista previa"
+  },
+  "zipSvgsTitle": {
+    "message": "Descarga todos los SVG en un ZIP"
+  },
+  "copyMarkup": {
+    "message": "Copiar código"
+  },
+  "downloadSvg": {
+    "message": "Descargar .svg"
+  },
+  "noColors": {
+    "message": "No se encontraron colores."
+  },
+  "colorsCount": {
+    "message": "{0} colores"
+  },
+  "copyCssVars": {
+    "message": "Copiar variables CSS"
+  },
+  "copyList": {
+    "message": "Copiar lista"
+  },
+  "copyValue": {
+    "message": "Copiar valor"
+  },
+  "role_all": {
+    "message": "Todos"
+  },
+  "role_text": {
+    "message": "Texto"
+  },
+  "role_background": {
+    "message": "Fondo"
+  },
+  "role_border": {
+    "message": "Borde"
+  },
+  "role_svg": {
+    "message": "SVG"
+  },
+  "role_shadow": {
+    "message": "Sombra"
+  },
+  "role_gradient": {
+    "message": "Degradado"
+  },
+  "contrastSection": {
+    "message": "Contraste del texto · {0} pares · {1} no pasan"
+  },
+  "contrastIntro": {
+    "message": "Relación WCAG 2 de cada color de texto con lo que tiene detrás. AA pide 4.5:1 (3:1 en texto grande) y AAA 7:1. Primero los peores."
+  },
+  "noFonts": {
+    "message": "No se encontró texto."
+  },
+  "fontsCount": {
+    "message": "{0} familias tipográficas"
+  },
+  "fontUses": {
+    "message": "{0}× · {1} estilos"
+  },
+  "copyFontFamily": {
+    "message": "Copiar font-family"
+  },
+  "downloadFont": {
+    "message": "Descargar archivo de fuente"
+  },
+  "fontSample": {
+    "message": "El veloz murciélago hindú comía feliz cardillo y kiwi"
+  },
+  "tipPosition": {
+    "message": "Posición"
+  },
+  "tipColor": {
+    "message": "Color"
+  },
+  "tipBackground": {
+    "message": "Fondo"
+  },
+  "tipContrast": {
+    "message": "Contraste"
+  },
+  "tipFont": {
+    "message": "Fuente"
+  },
+  "tipFontSize": {
+    "message": "Tamaño"
+  },
+  "tipWeight": {
+    "message": "Grosor"
+  },
+  "tipLineHeight": {
+    "message": "Interlineado"
+  },
+  "tipPadding": {
+    "message": "Padding"
+  },
+  "tipMargin": {
+    "message": "Margin"
+  },
+  "tipHint": {
+    "message": "↑ contenedor · clic para seleccionar"
+  },
+  "tipHintInner": {
+    "message": "↓ elemento interior · ↑ contenedor · clic para seleccionar"
+  },
+  "optionsHeading": {
+    "message": "Opciones"
+  },
+  "optionsIntro": {
+    "message": "Los cambios se aplican al instante, también en un panel abierto."
+  },
+  "optColorTitle": {
+    "message": "Formato de color"
+  },
+  "optColorText": {
+    "message": "Cómo se muestran y copian los colores en el panel y en la tarjeta flotante."
+  },
+  "optScopeTitle": {
+    "message": "Alcance del escaneo por defecto"
+  },
+  "optScopeText": {
+    "message": "Qué escanean primero las pestañas Imágenes, SVG, Colores y Fuentes."
+  },
+  "optThemeTitle": {
+    "message": "Tema"
+  },
+  "optThemeText": {
+    "message": "Se aplica al panel y a estas páginas."
+  },
+  "themeOptLight": {
+    "message": "Claro"
+  },
+  "themeOptDark": {
+    "message": "Oscuro"
+  },
+  "themeOptSystem": {
+    "message": "Igual que el sistema"
+  },
+  "optShortcutTitle": {
+    "message": "Atajo de teclado"
+  },
+  "optShortcutCurrent": {
+    "message": "Activa / desactiva el selector: {0}"
+  },
+  "optShortcutChange": {
+    "message": "Cambiar atajo"
+  },
+  "optShortcutFirefox": {
+    "message": "Firefox: about:addons → menú del engranaje → Administrar atajos de extensiones."
+  },
+  "optSaved": {
+    "message": "Guardado"
+  },
+  "welcomeHeading": {
+    "message": "Bienvenido a DDinspect"
+  },
+  "welcomeIntro": {
+    "message": "Desarma cualquier componente web: su CSS, de dónde viene ese CSS y los recursos que usa."
+  },
+  "welcomeStepsTitle": {
+    "message": "Empieza en tres pasos"
+  },
+  "welcomeStep1": {
+    "message": "Fija el ícono"
+  },
+  "welcomeStep1Text": {
+    "message": "Ícono del rompecabezas en la barra → fija DDinspect. Al hacer clic se abre el panel lateral."
+  },
+  "welcomeStep2": {
+    "message": "Activa el selector"
+  },
+  "welcomeStep2Text": {
+    "message": "Usa el interruptor del panel o pulsa {0}."
+  },
+  "welcomeStep2NoShortcut": {
+    "message": "Usa el interruptor del panel."
+  },
+  "welcomeStep3": {
+    "message": "Haz clic en un elemento"
+  },
+  "welcomeStep3Text": {
+    "message": "El panel muestra sus reglas, medidas, contraste y recursos. ↑ / ↓ pasan del contenedor al hijo."
+  },
+  "welcomeFeaturesTitle": {
+    "message": "Qué incluye"
+  },
+  "featRulesTitle": {
+    "message": "CSS con su origen"
+  },
+  "featRulesText": {
+    "message": "Cada regla que se aplica, el archivo de donde viene y qué está pisado."
+  },
+  "featAssetsTitle": {
+    "message": "Recursos"
+  },
+  "featAssetsText": {
+    "message": "Imágenes, SVG, colores y fuentes, para descargar de a uno o en un ZIP."
+  },
+  "featContrastTitle": {
+    "message": "Contraste"
+  },
+  "featContrastText": {
+    "message": "Relación WCAG de cada texto, al pasar el mouse y en la pestaña Colores."
+  },
+  "featExportTitle": {
+    "message": "Exportar como código"
+  },
+  "featExportText": {
+    "message": "HTML + CSS, React o Tailwind, con vista previa."
+  },
+  "featSavedTitle": {
+    "message": "Tu colección"
+  },
+  "featSavedText": {
+    "message": "Guarda elementos con miniatura y expórtalos o impórtalos como JSON."
+  },
+  "featPrivacyTitle": {
+    "message": "Privado"
+  },
+  "featPrivacyText": {
+    "message": "Todo queda en tu navegador. Sin cuentas ni rastreo."
+  },
+  "welcomeOptions": {
+    "message": "Abrir opciones"
+  }
+}
