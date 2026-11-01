@@ -47,7 +47,7 @@ Not in:
 - [x] README + CHANGELOG (2.0.0) updated.
 - [ ] Manual check in real Chrome side panel and real Firefox sidebar (not run: needs the person's browser).
 - [ ] Store screenshots 1280×800 (manual, guide in `store/listing.md`).
-- [ ] Replace `CONTACT_EMAIL` in `PRIVACY.md` before publishing.
+- [x] Replace `CONTACT_EMAIL` in `PRIVACY.md` before publishing → GitHub Issues link (see `github-repo-links.md`).
 
 ## Evidence
 
